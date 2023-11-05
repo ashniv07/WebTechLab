@@ -1,0 +1,37 @@
+/* Style for the book container */
+.book-container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+/* Style for each book item */
+.book {
+    text-align: center;
+    border: 1px solid #ddd;
+    margin: 1px;
+    padding: 10px;
+    background-color: #fff;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Style for book images */
+.book-image {
+    width: 100%; /* Make all images the same width */
+    height: auto;
+}
+
+/* Style for book titles */
+.book-title {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Style for book prices */
+.book-price {
+    font-size: 16px;
+    color: #3498db;
+}
