@@ -1,0 +1,112 @@
+<web-app>
+<servlet>
+        <servlet-name>welcome</servlet-name>
+        <servlet-class>page1</servlet-class>
+</servlet>
+ <servlet-mapping>
+        <servlet-name>welcome</servlet-name>
+        <url-pattern>/welcome</url-pattern>
+</servlet-mapping>
+<servlet>
+        <servlet-name>WelcomeServlet</servlet-name>
+        <servlet-class>page2</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>WelcomeServlet</servlet-name>
+        <url-pattern>/page2</url-pattern>
+    </servlet-mapping>
+
+  <servlet>
+        <servlet-name>AddToFavoritesServlet</servlet-name>
+        <servlet-class>page3_c</servlet-class>
+    </servlet>
+
+    <!-- Map the AddToFavoritesServlet to a URL -->
+    <servlet-mapping>
+        <servlet-name>AddToFavoritesServlet</servlet-name>
+        <url-pattern>/page3_c</url-pattern>
+    </servlet-mapping>
+
+    
+    <servlet>
+        <servlet-name>DisplayFavoritesServlet</servlet-name>
+        <servlet-class>page4_c</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DisplayFavoritesServlet</servlet-name>
+        <url-pattern>/page4_c</url-pattern>
+    </servlet-mapping>
+     <servlet>
+        <servlet-name>AuthorInfoServlet</servlet-name>
+        <servlet-class>AuthorInfoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AuthorInfoServlet</servlet-name>
+        <url-pattern>/AuthorInfoServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AuthorInfoDisplayServlet</servlet-name>
+        <servlet-class>AuthorInfoDisplayServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AuthorInfoDisplayServlet</servlet-name>
+        <url-pattern>/AuthorInfoDisplayServlet</url-pattern>
+    </servlet-mapping>
+
+     <servlet>
+        <servlet-name>p8_h1</servlet-name>
+        <servlet-class>p8_h1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>p8_h1</servlet-name>
+        <url-pattern>/hidden1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>p8_h2</servlet-name>
+        <servlet-class>p8_h2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>p8_h2</servlet-name>
+        <url-pattern>/hidden2</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>p8_u1</servlet-name>
+        <servlet-class>p8_u1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>p8_u1</servlet-name>
+        <url-pattern>/p1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>p8_u2</servlet-name>
+        <servlet-class>p8_u2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>p8_u2</servlet-name>
+        <url-pattern>/p2</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>StoreBook</servlet-name>
+        <servlet-class>StoreBook</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StoreBook</servlet-name>
+        <url-pattern>/storebook</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>RestoreBookCookie</servlet-name>
+        <servlet-class>RestoreBookCookie</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RestoreBookCookie</servlet-name>
+        <url-pattern>/restorebookcookie</url-pattern>
+    </servlet-mapping>
+    
+</web-app>
