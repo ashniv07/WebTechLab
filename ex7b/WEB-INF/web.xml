@@ -1,0 +1,11 @@
+<web-app>
+    <servlet>
+        <servlet-name>quiz</servlet-name>
+        <servlet-class>quix</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>quiz</servlet-name>
+        <url-pattern>/quizz</url-pattern>
+    </servlet-mapping>
+</web-app>
